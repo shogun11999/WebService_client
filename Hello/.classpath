@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="build/generated-sources/jax-ws"/>
+	<classpathentry kind="src" path="build/generated/jax-wsCache/WebServiceImplService"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/Hello.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
