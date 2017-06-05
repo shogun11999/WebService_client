@@ -33,7 +33,7 @@ public class WebServiceClient{
     
     public static WebService1 connection() throws MalformedURLException {
         // создаем ссылку на wsdl описание
-        URL url =new URL("http://10.2.57.153:8080/Hello_WS/WebServiceImplService?wsdl");
+        URL url =new URL("http://IP:8080/Hello_WS/WebServiceImplService?wsdl");
 
         // Параметры следующего конструктора смотрим в самом первом теге WSDL описания - definitions
         // 1-ый аргумент смотрим в атрибуте targetNamespace

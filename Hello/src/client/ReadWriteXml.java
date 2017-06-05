@@ -30,7 +30,7 @@ public class ReadWriteXml extends javax.swing.JFrame {
      */
     BufferedReader reader;
     WebService1 ws = connection();
-    String path = "N:\\Users\\Box32\\programs\\ZIS\\2017-04-06\\xml";
+    String path = "...\\2017-04-06\\xml";
     String inn = "5001030769";
     String save1,save2;
     
@@ -66,14 +66,14 @@ public class ReadWriteXml extends javax.swing.JFrame {
 
         jScrollPane1.setViewportView(jEditorPane1);
 
-        jButton1.setText("Найти файл");
+        jButton1.setText("РќР°Р№С‚Рё С„Р°Р№Р»");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        jButton2.setText("Сохранить");
+        jButton2.setText("РЎРѕС…СЂР°РЅРёС‚СЊ");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -87,9 +87,9 @@ public class ReadWriteXml extends javax.swing.JFrame {
             }
         });
 
-        jLabel1.setText("Каталог XML");
+        jLabel1.setText("РљР°С‚Р°Р»РѕРі XML");
 
-        jLabel2.setText("ИНН");
+        jLabel2.setText("Р�РќРќ");
         jLabel2.setToolTipText("");
 
         jTextField2.setText("jTextField2");
@@ -178,9 +178,9 @@ public class ReadWriteXml extends javax.swing.JFrame {
         } catch (MalformedURLException ex) {
             Logger.getLogger(ReadWriteXml.class.getName()).log(Level.SEVERE, null, ex);
         } catch (FileNotFoundException ex) {
-            System.out.println("Файл не найден");
+            System.out.println("Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ");
         } catch (IOException ex) {
-            System.out.println("Файл не найден");
+            System.out.println("Р¤Р°Р№Р» РЅРµ РЅР°Р№РґРµРЅ");
         }
         System.out.println(jTextField1.getText());   
         
